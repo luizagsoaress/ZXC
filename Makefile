@@ -18,7 +18,10 @@ install:
 	cp interface/interface ~/.local/bin/interface
 	cp interface/images/* ~/.local/share/zxc/images/
 	chmod +x ~/.local/bin/interface
-	chmod +x ~/.local/bin/main	
+	chmod +x ~/.local/bin/main
+
+run: 
+	~/.local/bin/interface
 
 uninstall:
 	rm -f ~/.local/bin/main
