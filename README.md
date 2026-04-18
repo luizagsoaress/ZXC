@@ -4,7 +4,7 @@ ZXC is a Unix shell written in C, originally based on Stephen Brennan's "Write a
 
 The screenshots below show basic usage: navigating to Downloads with `cd`, creating a folder with `mkdir`, editing a file with `nano`, and reading it back with `cat`.
 
-![image](./gitPhotos/github(test).png)
+![image](./gitPhotos/github(test)_2.png)
 
 ![image](./gitPhotos/github(nano).png)
 
