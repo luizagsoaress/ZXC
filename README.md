@@ -17,6 +17,22 @@ The screenshots below show basic usage: navigating to Downloads with `cd`, creat
 
 ![image](./github/github(3).png)
 
+## `ct` Command
+
+The `ct` command integrates the GROQ AI into the shell, allowing the user to make requests directly from the terminal.
+
+To use it:
+
+- Type `ct`
+- Select "Enter a new API key" if you don't have one saved yet
+- Type your question
+
+You can delete your saved key at any time by selecting "Delete saved API key" instead.
+
+The API key is stored locally at `~/.api_key`.
+
+If you use an invalid key, the response will be unreadable or return garbage, and an error alert may appear. Please use a correct one.
+
 ## Features
 
 - Custom prompt with path truncation
@@ -37,22 +53,6 @@ The screenshots below show basic usage: navigating to Downloads with `cd`, creat
 | Readline | Input handling and history |
 | libcurl | GROQ API requests |
 | ncurses | Interactive API key menu |
-
-## `ct` Command
-
-The `ct` command integrates the GROQ AI into the shell, allowing the user to make requests directly from the terminal.
-
-To use it:
-
-- Type `ct`
-- Select "Enter a new API key" if you don't have one saved yet
-- Type your question
-
-You can delete your saved key at any time by selecting "Delete saved API key" instead.
-
-The API key is stored locally at `~/.api_key`.
-
-If you use an invalid key, the response will be unreadable or return garbage, and an error alert may appear. Please use a correct one.
 
 ## Installation
 
