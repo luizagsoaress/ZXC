@@ -2,15 +2,9 @@ CC = gcc
 LIBS = -lreadline -lcurl -lncurses -lm
 GUI_FLAGS = `pkg-config --cflags --libs gtk+-3.0 vte-2.91`
 
-all: shell gui
-
-shell:
-	$(CC) shell/main.c -o shell/main $(LIBS)
-
-gui:
-	$(CC) interface/interface.c -o interface/interface $(GUI_FLAGS) $(LIBS)
-
 install:
+	$(CC) -o shell/main shell/main.c $(LIBS)
+	$(CC) interface/interface.c -o interface/interface $(GUI_FLAGS) $(LIBS)
 	mkdir -p ~/.local/bin
 	mkdir -p ~/.local/share/zxc/images
 	cp shell/.env.exemplo ~/.local/share/zxc/conf
