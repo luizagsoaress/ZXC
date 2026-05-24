@@ -7,8 +7,6 @@
 
 ZXC is a Unix shell written in C, originally based on Stephen Brennan's "Write a Shell in C" tutorial. The core loop, process management and builtins follow the same fork/exec pattern from the tutorial, but the project expanded from there: custom prompt with path truncation, readline integration, command history, multiple commands per line with `&&`, a GTK terminal interface with tab support, and AI queries via GROQ API. Colors and other settings are loaded at startup from a local config file.
 
-![image](./github/github(1).png)
-
 ## Example of use
 
 The screenshots below show basic usage: navigating to Downloads with `cd`, creating a folder with `mkdir`, editing a file with `nano`, and reading it back with `cat`.
