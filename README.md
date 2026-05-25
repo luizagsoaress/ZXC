@@ -1,7 +1,7 @@
 
 # ZXC
 
-![C](https://img.shields.io/badge/C-03599C?style=for-the-badge&logo=c&logoColor=white)
+![](https://img.shields.io/badge/C-03599C?style=for-the-badge&logo=c&logoColor=white)
 ![Makefile](https://img.shields.io/badge/Makefile-F15A24?style=for-the-badge&logo=gnu-make&logoColor=white)
 
 ## About
